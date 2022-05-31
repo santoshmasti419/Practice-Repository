@@ -43,7 +43,7 @@ public class Practice1Test {
 			 driver=new ChromeDriver();
 			 break;
 	      }*/
-		 
+		 //changes
 		driver.get("http://localhost:8888");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
