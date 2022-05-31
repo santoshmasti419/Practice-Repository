@@ -44,6 +44,7 @@ public class Practice1Test {
 			 break;
 	      }*/
 		 //changes 2
+		//santhu
 		driver.get("http://localhost:8888");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
