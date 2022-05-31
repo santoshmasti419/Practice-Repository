@@ -19,8 +19,9 @@ public class Practice1Test {
 	@Test
 	public void practice1() throws InterruptedException
 	{
-		
-		WebDriver driver;
+		 WebDriverManager.chromedriver().setup();
+		WebDriver driver = new ChromeDriver();
+		/*WebDriver driver;
 		String browser = System.getProperty("BROWSER");
 		 
 		 switch(browser)
@@ -41,7 +42,7 @@ public class Practice1Test {
 			 WebDriverManager.chromedriver().setup();
 			 driver=new ChromeDriver();
 			 break;
-	      }
+	      }*/
 		 
 		driver.get("http://localhost:8888");
 		driver.manage().window().maximize();
