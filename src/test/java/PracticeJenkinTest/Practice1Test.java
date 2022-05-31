@@ -59,12 +59,7 @@ public class Practice1Test {
 	    driver.findElement(By.xpath("//input[@name='lastname']")).sendKeys("Raj"+random);
 	    driver.findElement(By.xpath("//input[@title='Save [Alt+S]']")).click();
 	 
-	  WebElement ele1 = driver.findElement(By.xpath("//img[@src='themes/softed/images/user.PNG']"));
-	  Actions act=new Actions(driver);
-	  act.moveToElement(ele1).perform();
-	  driver.findElement(By.xpath("//a[.='Sign Out']")).click();
-	  driver.quit();
-
+	 
 	
     }
 
